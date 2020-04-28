@@ -1,7 +1,7 @@
 {
   "name": "cra-template-typescript-apollo",
   "version": "1.0.0",
-  "description": "The base TypeScript template for AAA Create React App.",
+  "description": "The base TypeScript template with Apollo.",
   "main": "template.json",
   "license": "MIT",
   "scripts": {
@@ -20,9 +20,23 @@
     "apollo",
     "react-router"
   ],
-  "author": "taylorosbourne",
+  "files": [
+    "template",
+    "template.json"
+  ],
+  "author": "Taylor Osbourne <taylorosbourne@protonmail.com>",
   "bugs": {
     "url": "https://github.com/taylorosbourne/cra-template-typescript-apollo/issues"
   },
-  "homepage": "https://github.com/taylorosbourne/cra-template-typescript-apollo#readme"
+  "homepage": "https://github.com/taylorosbourne/cra-template-typescript-apollo#readme",
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "@types/react-router": "^5.1.7",
+    "@types/react-router-dom": "^5.1.5",
+    "apollo-boost": "^0.4.7",
+    "graphql": "^15.0.0",
+    "react-router": "^5.1.2",
+    "react-router-dom": "^5.1.2",
+    "styled-components": "^5.1.0"
+  }
 }
