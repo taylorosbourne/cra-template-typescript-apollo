@@ -31,6 +31,6 @@
     "generate": "scripts/component-gen.sh",
 		"destroy": "scripts/wrath-of-god.sh",
 		"cypress:open": "yarn cypress open",
-		"cyrpess:run": "yarn cypress run"
+		"cypress:run": "yarn cypress run"
   }
 }
