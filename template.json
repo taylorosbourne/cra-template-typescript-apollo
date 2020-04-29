@@ -12,6 +12,7 @@
     "@types/react-router-dom": "^5.1.5",
     "@types/styled-components": "^5.1.0",
     "apollo-boost": "^0.4.7",
+    "cypress": "^4.5.0",
     "graphql": "^15.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
@@ -25,9 +26,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-		"eject": "react-scripts eject",
-		"lint": "prettier --write \"**/**/*.{ts,tsx,json}\"",
+    "eject": "react-scripts eject",
+    "lint": "prettier --write \"**/**/*.{ts,tsx,json}\"",
     "generate": "scripts/component-gen.sh",
-    "destroy": "scripts/wrath-of-god.sh"
+		"destroy": "scripts/wrath-of-god.sh",
+		"cypress:open": "yarn cypress open",
+		"cyrpess:run": "yarn cypress run"
   }
 }
