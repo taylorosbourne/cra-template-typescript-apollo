@@ -2,6 +2,8 @@
 
 [![NPM Version](https://img.shields.io/npm/v/cra-template-typescript-apollo?color=red&style=flat-square)](https://img.shields.io/npm/v/cra-template-typescript-apollo?color=red&style=flat-square)
 
+[![License](https://img.shields.io/github/license/taylorosbourne/cra-template-typescript-apollo?color=blue&style=flat-square)](https://img.shields.io/github/license/taylorosbourne/cra-template-typescript-apollo?color=blue&style=flat-square)
+
 [![Downloads](https://img.shields.io/npm/dt/cra-template-typescript-apollo?color=green&style=flat-square)](https://img.shields.io/npm/dt/cra-template-typescript-apollo?color=green&style=flat-square)
 
 Hello, thanks for checking out this template. This template extends the base TypeScript CRA Template, and includes an apollo connection, styled-components, and an "ideal" folder structure.

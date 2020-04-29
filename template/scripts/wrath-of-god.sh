@@ -1,21 +1,21 @@
 #!/bin/bash
 
+obliterate () {
+  # Confirm src dir exists
+  if [ -e "src" ]; then
+      cd "src"
+  else
+      echo "No src Dir"
+  fi
+
+	# BLOW IT ALL AWAY
+  rm -rf assets/* components/* containers/* hooks/* pages/* styles/* typings/*
+}
+
 echo "Do you wish to unleash the wrath of god?"
 select yn in "Yes" "No"; do
     case $yn in
-        Yes ) echo "AHHHHHHHHH"; break;;
+        Yes ) obliterate; break;;
         No ) exit;;
     esac
 done
-
-obliterate () {
-  # Confirm src dir exists
-  if [ -e "$SRC" ]; then
-      cd "$SRC"
-  else
-      echo "No $SRC Dir"
-  fi
-
-  exec "rm -rf assets/* components/* containers/* hooks/* pages/* styles/* typings/*" 
-
-}
