@@ -1,12 +1,9 @@
 {
   "name": "cra-template-typescript-apollo",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "The base TypeScript template with Apollo.",
   "main": "template.json",
   "license": "MIT",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/taylorosbourne/cra-template-typescript-apollo.git"
@@ -15,8 +12,6 @@
     "create-react-app",
     "cra-template",
     "typescript",
-    "formik",
-    "yup",
     "apollo",
     "react-router"
   ],
