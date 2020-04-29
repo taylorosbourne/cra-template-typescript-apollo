@@ -1,3 +1,4 @@
 import Layout from './layout';
+import ImgContainer from './imgContainer';
 
-export { Layout };
+export { Layout, ImgContainer };

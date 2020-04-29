@@ -24,6 +24,8 @@
       "build": "react-scripts build",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
-      "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,gql}'"
+      "prettier": "prettier --write '**/*.{js,jsx,ts,tsx,gql}'",
+      "generate": "scripts/component-gen.sh",
+      "destroy": "scripts/wrath-of-god.sh"
   }
 }
