@@ -1,6 +1,6 @@
 {
   "name": "cra-template-typescript-apollo",
-  "version": "1.2.6",
+  "version": "1.2.7",
   "description": "The base TypeScript template with Apollo.",
   "main": "template.json",
   "license": "MIT",
