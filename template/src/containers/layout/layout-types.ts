@@ -1,3 +1,3 @@
 export interface Props {
-  children: any;
+	children: any;
 }

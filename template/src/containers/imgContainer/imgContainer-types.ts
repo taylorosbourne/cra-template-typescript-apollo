@@ -1,3 +1,3 @@
 export interface Props {
-  imgs: string[];
+	imgs: string[];
 }

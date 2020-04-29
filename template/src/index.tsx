@@ -13,20 +13,20 @@ const client = new ApolloClient({
 });
 
 export const App: FC = () => (
-  <Router>
-    <Layout>
-      <Switch>
-        <Route exact path='/' component={Home} />
-      </Switch>
-    </Layout>
-  </Router>
+	<Router>
+		<Layout>
+			<Switch>
+				<Route exact path="/" component={Home} />
+			</Switch>
+		</Layout>
+	</Router>
 );
 
 ReactDOM.render(
-  <ApolloProvider client={client}>
-    <App />
-  </ApolloProvider>,
-  document.getElementById('root')
+	<ApolloProvider client={client}>
+		<App />
+	</ApolloProvider>,
+	document.getElementById('root')
 );
 
 // If you want your app to work offline and load faster, you can change
