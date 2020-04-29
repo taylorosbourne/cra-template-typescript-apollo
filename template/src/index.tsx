@@ -5,7 +5,7 @@ import { ApolloProvider } from '@apollo/react-hooks';
 import ApolloClient from 'apollo-boost';
 import * as serviceWorker from './serviceWorker';
 
-import { Home } from './pages';
+import { Home, About, Scripts } from './pages';
 import { Layout } from './containers';
 
 const client = new ApolloClient({
@@ -17,6 +17,8 @@ export const App: FC = () => (
 		<Layout>
 			<Switch>
 				<Route exact path="/" component={Home} />
+				<Route path="/about" component={About} />
+				<Route path="/scripts" component={Scripts} />
 			</Switch>
 		</Layout>
 	</Router>
