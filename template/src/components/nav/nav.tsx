@@ -11,7 +11,7 @@ const Nav: FC<Props> = ({ links }) => (
 				links.map((link, i) => {
 					return (
 						<li>
-							<Link key={i} to={`/${link}`}>
+							<Link key={i} to={`/${link}`} cy-data={link}>
 								{link}
 							</Link>
 						</li>
