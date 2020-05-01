@@ -1,17 +1,19 @@
 version: 2.1
 orbs:
-  node: circleci/node@1.1.6
-jobs:
-  build-and-test:
-    executor:
-      name: node/default
-    steps:
-      - checkout
-      - node/with-cache:
-          steps:
-            - run: npm install
-            - run: npm run build
+  cypress: cypress-io/cypress@1
 workflows:
-    build-and-test:
-      jobs:
-        - build-and-test
+  build:
+    jobs:
+      - cypress/install:
+          yarn: true
+          build: 'yarn && yarn run build'
+      - cypress/run:
+          requires:
+            - cypress/install
+          yarn: true
+          # record: true # record results on Cypress Dashboard, requires CYPRESS_RECORD_KEY be set
+          parallel: true # split all specs across machines
+          parallelism: 4 # use 4 CircleCI machines to finish quickly
+          group: 'all tests' # name this group "all tests" on the dashboard
+          start: 'sh -c "yarn start" | sleep 30' # start server before running tests
+          wait-on: 'http://localhost:3000'
