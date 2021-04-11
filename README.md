@@ -1,9 +1,9 @@
 # cra-template-typescript-apollo
 
-[![NPM Version](https://img.shields.io/npm/v/cra-template-typescript-apollo?color=red&style=flat-square)](https://img.shields.io/npm/v/cra-template-typescript-apollo?color=red&style=flat-square)
-[![License](https://img.shields.io/github/license/taylorosbourne/cra-template-typescript-apollo?color=blue&style=flat-square)](https://img.shields.io/github/license/taylorosbourne/cra-template-typescript-apollo?color=blue&style=flat-square)
-[![Downloads](https://img.shields.io/npm/dt/cra-template-typescript-apollo?color=green&style=flat-square)](https://img.shields.io/npm/dt/cra-template-typescript-apollo?color=green&style=flat-square)
-[![Maintainability](https://api.codeclimate.com/v1/badges/0a184dae6c0a9c4b08cf/maintainability)](https://codeclimate.com/github/taylorosbourne/cra-template-typescript-apollo/maintainability)
+[![NPM Version](https://img.shields.io/npm/v/cra-template-typescript-apollo?color=red&style=for-the-badge)](https://img.shields.io/npm/v/cra-template-typescript-apollo?color=red&style=flat-square)
+[![License](https://img.shields.io/github/license/taylorosbourne/cra-template-typescript-apollo?color=blue&style=for-the-badge)](https://img.shields.io/github/license/taylorosbourne/cra-template-typescript-apollo?color=blue&style=flat-square)
+[![Downloads](https://img.shields.io/npm/dt/cra-template-typescript-apollo?color=green&style=for-the-badge&logo=npm)](https://www.npmjs.com/package/cra-template-typescript-apollo)
+![Code Climate maintainability](https://img.shields.io/codeclimate/maintainability/taylorosbourne/cra-template-typescript-apollo?color=45d298&logo=code%20climate&style=for-the-badge)
 
 Hello, thanks for checking out this template. This template extends the base TypeScript CRA Template, and includes an apollo connection, styled-components, cypress and circleci configuration, and an "ideal" folder structure.
 
